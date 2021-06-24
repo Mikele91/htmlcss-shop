@@ -51,3 +51,14 @@ img{
 
 }
  
+.immagine-none{
+    display: none;
+}
+.img:hover .immagine-none{
+    display: block;
+
+}
+.img:hover .immagine-look{
+    display:none;
+
+}
