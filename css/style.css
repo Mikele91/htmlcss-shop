@@ -55,7 +55,7 @@ img{
     display: none;
 }
 .img:hover .immagine-none{
-    display: block;
+    display: inline-block;
 
 }
 .img:hover .immagine-look{
