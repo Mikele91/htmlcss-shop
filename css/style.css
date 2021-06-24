@@ -3,19 +3,51 @@
     margin:0;
     box-sizing: border-box; 
 }
-.container{
-    
-    margin: auto;
-    
-    
+.contenitore
+{
+    margin:auto;
+    width:80%;
 }
-.product{
-     height: 300px;
-    display:inline-block;
-     width: calc(100% / 3)  
+.img{
+    display: inline-block;
+    width: calc(90% / 3);
+    position:relative
 }
- .img{
-      width: 100%;
-     display:inline-block;
-   
-} 
+img{
+    display: inline-block;
+    width:100%;
+}
+.prezzo-2{
+    text-decoration:line-through ;
+    padding-left: 4px;
+}
+.prezzo-1{
+    font-weight: bold;
+    color: red;
+}
+.cuore{
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    position:absolute;
+    top:40px;
+    right: 0;
+}
+.sconto, .sostenibile{
+    color:white;
+    padding:2px;
+    background-color: red;
+    position:absolute;
+    bottom: 100px;
+    left:10px;
+}
+
+    
+.sostenibile{
+        margin-left: 15%; 
+       background-color: green;
+
+}
+ 
